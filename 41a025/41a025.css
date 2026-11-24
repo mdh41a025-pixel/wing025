@@ -1,0 +1,257 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: hsla(222, 43%, 78%, 0.856);
+    ;
+}
+
+header{
+    background-color: rgba(21, 9, 77, 0.411);
+    height: 150px;
+    width: 100%;
+position: fixed;}
+
+h1{color: cadetblue;
+position: absolute;
+left: 120px;
+top:0;
+line-height: 120px;
+background-image: url(image/41a025.svg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center; 
+width: 210px;
+text-indent: -9999%;}
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+     line-height: 80px;
+
+}
+header li{
+    display: inline;
+    margin: 4vw;
+} 
+header a{
+    color: rgb(221, 233, 255);
+    text-decoration:none ;
+}
+header a:hover{
+    text-decoration: underline ;
+
+}
+.news{
+    background-color: rgb(7, 30, 51);
+    color: rgb(137, 202, 94);
+    height: 95vh;
+    background-image:url(image/7.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news h2{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.news p{
+    color: chartreuse;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.news a{
+    color: rgb(255, 0, 242);
+    text-decoration: none;
+    border: 1px #334869 solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.slogan{
+    background-color: rgb(180, 226, 149);
+    color: rgb(59, 122, 17); 
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    line-height: 1.8em;
+
+}
+.product{
+    display: flex;
+}
+.product img{
+    width: 50%;
+}
+.info{
+    width:50%;
+    background-color: #b0c7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2{
+font-size: 27px;
+margin-bottom: 30px;
+}
+.info p{
+    text-align: 40px;
+    line-height: 2em;
+    font-size: 20px;
+}
+.newslitter{
+    display: flex;
+    background-color: #b0c7eb;
+    justify-content:space-between;
+    align-items: center;
+    padding: 100PX 100PX 30px;
+}
+
+.newslitter div{
+    width: 250px;
+    text-align: center;
+}
+.newslitter img{
+    width: 100%;
+    border-radius: 30px;
+    height: 250px;
+}
+
+.newslitter h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.newslitter p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.smp{
+    display: flex;
+}
+.smp img{
+    width: 50%;
+}
+.info{
+    width:50%;
+    background-color: #b0c7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2{
+font-size: 27px;
+margin-bottom: 30px;
+}
+.info p{
+    text-align: 40px;
+    line-height: 2em;
+    font-size: 20px;
+}
+.dsmp{
+    display: flex;
+    background-color: #b0c7eb;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50PX 20PX 100px 100px;
+}
+
+.dsmp div{
+    width: 350px;
+    text-align: center;
+}
+.dsmp img{
+    width: 100%;
+    border-radius: 30px; 
+}
+
+.dsmp p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+footer{
+background-color: #92abd3;
+color: black;
+height: 60px;
+display: flex;
+justify-content:center;
+align-items: center;
+font-size: 14px;
+}
+
+.mcyt{
+display: none;
+}
+
+@media screen and (max-width: 768px){
+
+header ul{
+display: none;
+}
+    
+header h1{
+left: 50%;
+transform: translate(-50%);
+}
+    
+.news{
+    display: block;
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.product{
+    flex-direction: column;
+}
+.product img{
+    width: 100%;
+}
+
+.smp{
+    flex-direction: column;
+}
+.smp img{
+    width: 100%;
+}
+
+
+.info{
+width: 100%;
+padding: 40px 0;
+}
+.info h2{
+    font-size: 30px;
+}
+.newslitter{
+    flex-direction: column;
+    padding: 60px 0;
+}
+.newslitter div{
+    margin-bottom: 30px;
+}
+
+.dsmp{
+    flex-direction: column;
+    padding: 60px 0;
+}
+.dsmp div{
+    margin-bottom: 30px;
+}
+
+}
